@@ -1,0 +1,373 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/*
+Dr. Owen
+*/
+div.game {
+    background-image: url('images/game-images/bummer.png');
+    display: inline-block;
+    margin: 0 auto 1em;
+    border: 20px solid #5c544f;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+
+    background-size: 100% 100%;
+
+    /*
+    Dr. Owen
+    */
+    /*noinspection ALL*/
+    div.row {
+        display: block;
+        padding: 0;
+        height: 50px;
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+
+    /*
+    Dr. Owen
+    */
+    div.cell {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        min-height: 50px;
+        min-width: 50px;
+        box-sizing: border-box;
+    }
+}
+
+
+/*
+Dr. Owen
+*/
+div.cell input {
+    border: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    text-indent: -999px;
+    font-size: 0;
+    line-height: 0;
+    background-size: 100% 100%;
+}
+/*
+Dr. Owen
+*/
+div.play {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+div.play input {
+    border: 0;
+    padding: 0;
+    width: 200px;
+    height: 308px;
+    background-color: transparent;
+    text-indent: -999px;
+    font-size: 0;
+    line-height: 0;
+    background-size: 100% 100%;
+}
+p.turn {
+    font-size: 2em;
+    color:white;
+    width: 200px;
+    text-align: center;
+}
+
+/*noinspection CssUnusedSymbol*/
+input.red {
+    background-image: url("images/game-images/minion-red.png");
+}
+
+/*noinspection CssUnusedSymbol*/
+input.yellow {
+    background-image: url("images/game-images/minion-yellow.png");
+}
+/*noinspection CssUnusedSymbol*/
+input.blue {
+    background-image: url("images/game-images/minion-blue.png");
+}
+/*noinspection CssUnusedSymbol*/
+input.green {
+    background-image: url("images/game-images/minion-green.png");
+}
+
+
+/*
+Haylee Quarles
+*/
+body {
+    width: 840px;
+    height: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url("images/factory.png") no-repeat fixed top;
+    background-size: cover;
+}
+
+/*noinspection CssUnusedSymbol*/
+div.play{
+    input.card1 {
+        background-image: url("images/game-images/card-1.png");
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    input.card2 {
+        background-image: url("images/game-images/card-2.png");
+    }
+
+    /*noinspection CssUnusedSymbol*/
+    input.card3 {
+        background-image: url("images/game-images/card-3.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card4 {
+        background-image: url("images/game-images/card-4.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card5 {
+        background-image: url("images/game-images/card-5.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card7 {
+        background-image: url("images/game-images/card-7.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card8 {
+        background-image: url("images/game-images/card-8.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    div.play input.card10 {
+        background-image: url("images/game-images/card-10.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card11 {
+        background-image: url("images/game-images/card-11.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.card12 {
+        background-image: url("images/game-images/card-12.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.cardbummer {
+        background-image: url("images/game-images/card-bummer.png");
+    }
+    /*noinspection CssUnusedSymbol*/
+    input.cardback {
+        background-image: url("images/game-images/card-back.png");
+    }
+}
+
+
+
+
+
+/*
+ * Rachel Beard
+ * Added: 2/19/2017
+ */
+div.header {
+    background-color: #678F86;
+    border: thick solid #15302C;
+}
+
+div.sidebar {
+    background-color: #678F86;
+    width: 200px;
+    height: 400px;
+    border: thick solid #15302C;
+    display: inline-block;
+    margin: 1em 10px 1em auto;
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+}
+
+a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:active {
+    color: slategray;
+    font-family: sans-serif;
+}
+
+div.welcomeLogin {
+    background-color: #e8e8e8;
+    padding: 25px;
+    text-align: center;
+}
+
+div.welcomeLogin p {
+    font-size: large;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding:10px;
+}
+div.password {
+    background-color: #e8e8e8;
+    padding: 25px;
+    text-align: center;
+    p {
+        font-size: large;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding:10px;
+    }
+
+}
+div.resetpassword {
+    background-color: #e8e8e8;
+    padding: 25px;
+    text-align: center;
+    p {
+        font-size: large;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding:10px;
+    }
+
+}
+
+div.instructiontext p {
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+div.turnBtn {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+div.turnBtn input[type="submit"] {
+    font-size: 1em;
+    font-family: sans-serif;
+    width: 100px;
+    height: 50px;
+}
+
+/*noinspection CssUnusedSymbol*/
+div.red {
+    width: 25px;
+    height: 25px;
+    background-image: url("images/game-images/minion-red.png");
+    background-size: contain;
+    margin-left: 83px;
+}
+/*noinspection CssUnusedSymbol*/
+div.yellow {
+
+    width: 25px;
+    height: 25px;
+    background-image: url("images/game-images/minion-yellow.png");
+    background-size: contain;
+    margin-left: 83px;
+}
+/*noinspection CssUnusedSymbol*/
+div.blue {
+    width: 25px;
+    height: 25px;
+    background-image: url("images/game-images/minion-blue.png");
+    background-size: contain;
+    margin-left: 83px;
+}
+/*noinspection CssUnusedSymbol*/
+div.green {
+    width: 25px;
+    height: 25px;
+    background-image: url("images/game-images/minion-green.png");
+    background-size: contain;
+    margin-left: 83px;
+}
+
+div.sidebar p {
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.options {
+    position: absolute;
+    left: 370px;
+    top: 580px;
+    color: white;
+}
+
+p.return a {
+    color: #678F86;
+    align-content: center;
+    font-size: 2em;
+}
